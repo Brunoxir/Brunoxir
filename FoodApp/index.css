@@ -1,0 +1,142 @@
+* {
+    font-family: Smythe;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 50%;
+    height: 25vh;
+}
+
+.dishClass {
+    width: 50%;
+    height: 10vh;
+    font-size: 2em;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dishClass .emoji {
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+/* buttons */
+
+.dishClass button {
+    font-size: 1em;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 0.5em;
+    margin-right: 2em;
+}
+
+#pay-btn {
+    font-size: 2.5em;
+    color: black;
+    margin-top: 5%;
+    padding: 3% 40%;
+    background-color: #16DB99;
+    border: none;
+    padding: 3% 40%;
+    border-radius: 5px;
+}
+
+#complete-btn {
+    font-size: 1.2em;
+    margin-top: 3%;
+    background-color: #16DB99;
+    border: none;
+    padding: 3% 42%;
+    border-radius: 5px;
+}
+
+/* order summary */
+#order-summary {
+    width: 46%;
+    font-size: 2em;
+    padding: 2%;
+}
+
+#order-heading {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.order-display {
+    display: flex;
+    align-items: center;
+}
+
+.order-display i {
+    font-size: 0.7em;
+    margin-left: 2%;
+    color: darkgray;
+}
+
+.item-push {
+    margin-left: auto;
+}
+
+/* pop up  */
+
+#pop-up {
+    position: fixed;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 10%;
+    width: 30%;
+    height: 58vh;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+#pop-up h1 {
+    font-family: verdana;
+    font-size: 3em;
+    padding: 2%;
+    margin: 5%;
+}
+
+#pop-up input {
+    width: 80%;
+    height: 8vh;
+    margin-top: 2%;
+    border: 1px solid #757575;
+    color: #757575;
+    font-size: 3em;
+    padding-left: 5%;
+}
+
+#wrong-pop-up {
+    margin-top: 4%;
+    font-size: 3em;
+}
+
+.fa-xmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 3em;
+    margin: auto;
+    margin: 10px;
+}
+
+.display {
+    display: none;
+}
+
+#order-Finish {
+    background-color: #ECFDF5;
+    color: #065F46;
+    padding: 8% 20%;
+    text-align: center;
+}
